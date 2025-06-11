@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+.morePositive {
+    background-color: #d4e9f4; /* 青 */
+}
+.positive {
+    background-color: #d4f4dd; /* 緑 */
+}
+.negative {
+    background-color: #f8d7da; /* 赤 */
+}
+.compact-cell {
+    width: 100px;   /* 幅 */
+    height: 30px;   /* 高さ */
+    padding: 0px;
+}
+td.compact-cell {
+    padding: 0px;
+}
